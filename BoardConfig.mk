@@ -18,7 +18,8 @@ AB_OTA_PARTITIONS += \
     vendor \
     vendor_dlkm \
     odm \
-    odm_dlkm
+    odm_dlkm \
+    vbmeta
 
 # Architecture
 TARGET_ARCH := arm64
@@ -119,3 +120,7 @@ TARGET_BOARD_PLATFORM := mt6765
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+
+# Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
