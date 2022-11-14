@@ -51,6 +51,9 @@ done
 
 function blob_fixup {
 	case "$1" in
+		vendor/bin/hw/android.hardware.thermal@2.0-service.mtk)
+			"${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
+			;;
 		vendor/lib*/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
 			"${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
 			;;
