@@ -290,7 +290,7 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service-lazy \
+    android.hardware.wifi@1.0-service-lazy.hawaiipl \
     android.hardware.tetheroffload.config@1.0.vendor:64 \
     android.hardware.tetheroffload.control@1.1.vendor:64 \
     android.hardware.wifi.hostapd@1.3.vendor:64 \
