@@ -113,6 +113,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6.vendor:64 \
     libcamera2ndk_vendor
 
+PRODUCT_PACKAGES += \
+    libcamera_metadata_shim
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
