@@ -10,6 +10,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Enable Virtual A/B OTA
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
+# Inherit the proprietary files
+$(call inherit-product, vendor/motorola/hawaiipl/hawaiipl-vendor.mk)
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 31
 
