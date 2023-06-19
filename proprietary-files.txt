@@ -1078,6 +1078,13 @@ vendor/lib64/libvcodec_utility.so
 vendor/lib64/libvcodecdrv_header_stub.so
 vendor/lib64/libvpu5.so
 
+# Modules
+vendor/etc/init/init.bt_drv.rc
+vendor/etc/init/init.fmradio_drv.rc
+vendor/etc/init/init.gps_drv.rc
+vendor/etc/init/init.wlan_drv.rc
+vendor/etc/init/init.wmt_drv.rc
+
 # NFC
 vendor/lib/libnxp_extamp_intf.so
 vendor/lib64/libnxp_extamp_intf.so
