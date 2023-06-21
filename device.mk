@@ -102,6 +102,25 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.cgroup.rc \
+    init.connectivity.common.rc \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6765.rc \
+    init.mt6765.usb.rc \
+    init.project.rc \
+    init.sensor_1_0.rc \
+    init_connectivity.rc
+
+PRODUCT_PACKAGES += \
+    fstab.mt6765 \
+    fstab.mt6765.ramdisk
+
+PRODUCT_PACKAGES += \
+    ueventd.mt6765.rc
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/seccomp/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \

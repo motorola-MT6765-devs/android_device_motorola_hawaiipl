@@ -1,0 +1,85 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.cgroup.rc",
+    src: "etc/init.cgroup.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.connectivity.common.rc",
+    src: "etc/init.connectivity.common.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.connectivity.rc",
+    src: "etc/init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.modem.rc",
+    src: "etc/init.modem.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6765.rc",
+    src: "etc/init.mt6765.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6765.usb.rc",
+    src: "etc/init.mt6765.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.project.rc",
+    src: "etc/init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sensor_1_0.rc",
+    src: "etc/init.sensor_1_0.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init_connectivity.rc",
+    src: "etc/init_connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+// Fstab
+prebuilt_etc {
+    name: "fstab.mt6765",
+    ramdisk_available: true,
+    src: "etc/fstab.mt6765",
+    vendor: true,
+}
+
+// Ueventd
+prebuilt_etc {
+    name: "ueventd.mt6765.rc",
+    filename: "ueventd.rc",
+    src: "etc/ueventd.mt6765.rc",
+    vendor: true,
+}
