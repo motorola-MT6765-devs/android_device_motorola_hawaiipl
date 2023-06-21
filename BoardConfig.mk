@@ -136,6 +136,7 @@ TARGET_BOARD_PLATFORM := mt6765
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
