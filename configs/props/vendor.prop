@@ -180,9 +180,6 @@ ro.vendor.radio.max.multisim=dsds
 ro.vendor.sim_me_lock_mode=0
 telephony.active_modems.max_count=2
 
-# Rootdir
-ro.vendor.rc=/vendor/etc/init/hw/
-
 # SCC
 ro.vendor.tinno.scc=true
 
