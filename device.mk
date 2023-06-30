@@ -171,6 +171,10 @@ PRODUCT_PACKAGES += \
     libpuresoftkeymasterdevice.vendor:64 \
     libsoft_attestation_cert.vendor:64
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0.vendor:64
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
