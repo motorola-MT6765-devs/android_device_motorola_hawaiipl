@@ -143,6 +143,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1.vendor:64
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl
+
 # Kernel
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)-kernel/Image.gz:kernel
