@@ -786,11 +786,6 @@ vendor/etc/init/lights-mtk-default.rc
 vendor/lib/hw/lights.mt6765.so
 vendor/lib64/hw/lights.mt6765.so
 
-# Listen
-vendor/lib/android.hardware.soundtrigger@2.1.so
-vendor/lib/android.hardware.soundtrigger@2.2.so
-vendor/lib/android.hardware.soundtrigger@2.3.so
-
 # Media
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
