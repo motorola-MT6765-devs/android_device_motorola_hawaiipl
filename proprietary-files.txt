@@ -263,16 +263,6 @@ vendor/lib/libmtkcam_stdutils.so
 vendor/lib/libmtkcam_ulog.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so
-vendor/lib64/android.hardware.camera.common@1.0.so
-vendor/lib64/android.hardware.camera.device@1.0.so
-vendor/lib64/android.hardware.camera.device@3.2.so
-vendor/lib64/android.hardware.camera.device@3.3.so
-vendor/lib64/android.hardware.camera.device@3.4.so
-vendor/lib64/android.hardware.camera.device@3.5.so
-vendor/lib64/android.hardware.camera.device@3.6.so
-vendor/lib64/android.hardware.camera.provider@2.4.so
-vendor/lib64/android.hardware.camera.provider@2.5.so
-vendor/lib64/android.hardware.camera.provider@2.6.so
 vendor/lib64/gc02m1_tsp_p410ae_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1_tsp_p410ae_mipi_raw_tuning.so
 vendor/lib64/gc02m1_tsp_p411be_mipi_raw_india_IdxMgr.so
