@@ -158,6 +158,19 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)-kernel/Image.gz:kernel
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1.vendor:64 \
+    android.system.wifi.keystore@1.0.vendor \
+    libkeymaster4.vendor:64 \
+    libkeymaster41.vendor:64 \
+    libkeymaster4_1support.vendor:64 \
+    libkeymaster4support.vendor:64 \
+    libkeystore-engine-wifi-hidl:64 \
+    libkeystore-wifi-hidl \
+    libpuresoftkeymasterdevice.vendor:64 \
+    libsoft_attestation_cert.vendor:64
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
