@@ -240,15 +240,6 @@ vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 # Boot Control
 vendor/bin/mtk_plpath_utils_ota
 
-# CAS
-vendor/bin/hw/android.hardware.cas@1.2-service-lazy
-vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
--vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
-vendor/lib/android.hardware.cas.native@1.0.so
-vendor/lib/android.hardware.cas@1.0.so
-vendor/lib/android.hardware.cas@1.1.so
-vendor/lib/android.hardware.cas@1.2.so
-
 # Camera
 vendor/bin/hw/camerahalserver
 vendor/bin/lib3a.ccu.dm
