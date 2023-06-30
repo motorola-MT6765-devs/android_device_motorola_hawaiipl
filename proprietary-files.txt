@@ -550,7 +550,6 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/init.egisensor.rc
 vendor/etc/init/init.fpsensor.rc
 -vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
-vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/hw/fingerprint.egis.default.so
 vendor/lib64/hw/fpsensor_fingerprint.default.so
 vendor/lib64/libchiponeic_fingerprint_factory.so
