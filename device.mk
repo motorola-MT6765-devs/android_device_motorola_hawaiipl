@@ -180,6 +180,15 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3.vendor
 
 # Media
+PRODUCT_PACKAGES += \
+    android.hardware.media.c2@1.2.vendor \
+    libavservices_minijail.vendor \
+    libcodec2_hidl@1.2.vendor \
+    libcodec2_hidl_plugin.vendor \
+    libcodec2_soft_common.vendor \
+    libsfplugin_ccodec_utils.vendor \
+    libstagefright_softomx_plugin.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
