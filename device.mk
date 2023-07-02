@@ -274,6 +274,13 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.3.vendor:64
 
 # WiFi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service-lazy \
+    android.hardware.tetheroffload.config@1.0.vendor:64 \
+    android.hardware.tetheroffload.control@1.1.vendor:64 \
+    android.hardware.wifi.hostapd@1.3.vendor:64 \
+    android.hardware.wifi.supplicant@1.4.vendor:64
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
