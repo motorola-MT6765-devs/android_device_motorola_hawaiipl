@@ -1399,12 +1399,6 @@ vendor/lib64/hw/thermal_hal.so
 vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2
 vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
 -vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
-vendor/lib64/android.hardware.usb.gadget@1.0.so
-vendor/lib64/android.hardware.usb.gadget@1.1.so
-vendor/lib64/android.hardware.usb@1.0.so
-vendor/lib64/android.hardware.usb@1.1.so
-vendor/lib64/android.hardware.usb@1.2.so
-vendor/lib64/android.hardware.usb@1.3.so
 
 # Vibrator
 vendor/bin/hw/android.hardware.vibrator-service.mediatek
