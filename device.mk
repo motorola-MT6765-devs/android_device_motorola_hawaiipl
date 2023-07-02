@@ -214,6 +214,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.1.vendor \
+    android.hardware.radio@1.6.vendor:64 \
+    android.hardware.radio.config@1.3.vendor:64
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.cgroup.rc \

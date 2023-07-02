@@ -1010,8 +1010,6 @@ vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
-vendor/lib/android.hardware.radio@1.0.so
-vendor/lib/android.hardware.radio@1.1.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib/libQstAlgo.so
 vendor/lib/libcapctrl.so
@@ -1065,17 +1063,6 @@ vendor/lib/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib/vendor.mediatek.hardware.mms@1.6.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.nwk_opt@1.0.so
-vendor/lib64/android.hardware.radio.config@1.0.so
-vendor/lib64/android.hardware.radio.config@1.1.so
-vendor/lib64/android.hardware.radio.config@1.2.so
-vendor/lib64/android.hardware.radio.config@1.3.so
-vendor/lib64/android.hardware.radio@1.0.so
-vendor/lib64/android.hardware.radio@1.1.so
-vendor/lib64/android.hardware.radio@1.2.so
-vendor/lib64/android.hardware.radio@1.3.so
-vendor/lib64/android.hardware.radio@1.4.so
-vendor/lib64/android.hardware.radio@1.5.so
-vendor/lib64/android.hardware.radio@1.6.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib64/libQstAlgo.so
 vendor/lib64/libRbsFlow.so
